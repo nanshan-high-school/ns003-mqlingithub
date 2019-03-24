@@ -12,6 +12,7 @@ int main() {
       int num1 = num.top();
       num.pop();
       int ans = num.top() + num1;
+      num.pop();
       num.push(ans);
     }
 
@@ -19,6 +20,7 @@ int main() {
       int num1 = num.top();
       num.pop();
       int ans = num.top() - num1;
+      num.pop();
       num.push(ans);
     }
 
@@ -26,6 +28,7 @@ int main() {
       int num1 = num.top();
       num.pop();
       int ans = num.top() * num1;
+      num.pop();
       num.push(ans);
     }
 
@@ -33,6 +36,7 @@ int main() {
       int num1 = num.top();
       num.pop();
       int ans = num.top() / num1;
+      num.pop();
       num.push(ans);
     }
 
